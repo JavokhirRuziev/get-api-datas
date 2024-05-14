@@ -60,7 +60,9 @@ export default function Home() {
           Download as ZIP
         </Button>
       </Box>
-      <Typography variant="subtitle2">{displayValue}</Typography>
+      <Typography variant="subtitle2" overflow={"hidden"}>
+        {displayValue}
+      </Typography>
     </Paper>
   );
 }
